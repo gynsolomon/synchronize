@@ -1,7 +1,7 @@
 // require('longjohn')
 
 var sync   = require('../sync')
-var Fiber = require('fibers')
+var Fiber = require('jxcore-fibers')
 var expect = require('chai').expect
 
 describe('Control Flow', function(){

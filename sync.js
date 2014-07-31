@@ -1,6 +1,6 @@
 /*jshint node: true, indent:2, loopfunc: true, asi: true, undef:true*/
 
-var Fiber = require('fibers')
+var Fiber = require('jxcore-fibers')
 
 // Takes function and returns its synchronized version, it's still backward compatible and
 // can be used as asynchronous `syncFn = sync(asyncFn)`.
